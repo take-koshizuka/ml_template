@@ -1,0 +1,18 @@
+{
+    "seed" : 57,
+    "epochs": 50,
+    "checkpoint_period": 10,
+    "dataset" : {
+        "root": "data",
+        "batch_size" : 8,
+        "train_images_dir": "train_img",
+        "val_images_dir": "val_img",
+        "test_images_dir": "test_img",
+        "train_masks_dir": "train_label",
+        "val_masks_dir": "val_label"
+    },
+    "model_name": "",
+    "model": {
+        
+    }
+}
