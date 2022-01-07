@@ -36,7 +36,6 @@ RUN chmod 777 /home/user
 
 RUN git clone https://github.com/take-koshizuka/ml_template.git
 
-WORKDIR /app/ml_template
 RUN pip install -r requirements.txt
 
 CMD ["/bin/bash"]
